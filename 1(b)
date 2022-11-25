@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Js value to Json string.</h2>
+<p id="demo"></p>
+
+<script>
+const obj = {name: " Baby", age: 25, city: " Nahi Pta"};
+const myJSON = JSON.stringify(obj);
+document.getElementById("demo").innerHTML = myJSON;
+</script>
+
+</body>
+</html>
